@@ -1,0 +1,9 @@
+<mat-toolbar color="primary" class="car-selected-toolbar">
+  <button mat-icon-button (click)="deselectCar()">
+    <mat-icon aria-label="close">close</mat-icon>
+  </button>
+  <p>{{selectedCar.car.license_no}}</p>
+</mat-toolbar>
+<div #gauge [style.width.%]="100" [style.height.px]="200"></div>
+<p class="address">{{'loading...' | Address: selectedCar.latest_data.latitude: selectedCar.latest_data.longitude | async }}</p>
+<p class="last-seen">__last update {{selectedCar.latest_data.tracker_time | amParse:'YYYYMMDDHHmmss' | amUtc | amTimeAgo: true}} ago</p>

@@ -1,0 +1,16 @@
+.my-card {
+    width: 300px;
+    margin: auto;
+}
+.form-container {
+    padding: 10%;
+}
+.form-container mat-form-field {
+    width: 100%;
+}
+.btn-section {
+    overflow: hidden;
+}
+.btn-section button {
+    float: right;
+}

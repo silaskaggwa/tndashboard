@@ -1,0 +1,36 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.leftnav {
+  width: 150px;
+  /* background: #3e5569; */
+}
+
+.rightnav {
+  width: 350px;
+  /* background: #3e5569; */
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.toolbar-icon {
+  padding: 0 5px;
+}
+
+.toolbar-spacer {
+  flex: 1 1 auto;
+}
+
+.filter-form-field {
+  width: 100%;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+.logo {
+  height: 50px;
+}

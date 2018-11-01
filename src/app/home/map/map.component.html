@@ -1,0 +1,5 @@
+<div class="main-window">
+  <agm-map #agmMap>
+    <agm-marker *ngFor="let car of cars | CarsFilter: searchText" [latitude]="car.latest_data.latitude" [longitude]="car.latest_data.longitude"></agm-marker>
+  </agm-map>
+</div>
